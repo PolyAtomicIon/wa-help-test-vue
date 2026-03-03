@@ -1,5 +1,42 @@
-# Vue 3 + TypeScript + Vite
+# Веб-мессенджер — тестовое задание
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+SPA-приложение, имитирующее мессенджер, выполненное на **Vue 3** (Composition API), **TypeScript**, **Pinia**, **Vue Router** и **SCSS**.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Возможности
+
+- Список чатов с индикатором онлайн/оффлайн статуса
+- История сообщений (входящие и исходящие) с отображением времени
+- Отправка сообщений с автоматическим ответом собеседника через 1–2 сек
+- Сохранение истории в `localStorage` между перезагрузками
+- Уведомления о непрочитанных сообщениях в неактивных чатах
+- Поддержка форматирования: `**жирный**` и `*курсив*`
+- Адаптивная вёрстка — на мобильных устройствах чат открывается во весь экран
+- Анимация появления новых сообщений
+- Enter — отправка, Shift+Enter — перенос строки
+
+## Как запустить
+
+```bash
+# 1. Клонировать репозиторий
+git clone https://github.com/PolyAtomicIon/wa-help-test-vue.git
+
+# 2. Перейти в папку проекта
+cd wa-help-test-vue
+
+# 3. Установить зависимости
+npm install
+
+# 4. Запустить dev-сервер
+npm run dev
+```
+
+После запуска приложение будет доступно по адресу: **http://localhost:5173/**
+
+## Технологии
+
+- Vue 3 (Composition API + `<script setup>`)
+- TypeScript
+- Pinia
+- Vue Router 4
+- SCSS
+- Vite
